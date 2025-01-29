@@ -1,1 +1,34 @@
-# .gitignore
+# Compiler files
+cache/
+out/
+artifacts/
+forge-cache/
+
+# Ignores development broadcast logs
+# !/broadcast
+deployments
+broadcast
+!/broadcast/*/1/
+
+# Dotenv file
+.env
+
+.idea/
+node_modules/
+
+.vscode
+.DS_Store
+pnpm-lock.yaml
+
+coverage
+
+# contracts
+abi
+typechain
+!./script/out
+
+# converage
+lcov.info
+
+# test
+mochawesome-report
